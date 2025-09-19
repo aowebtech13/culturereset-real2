@@ -1,5 +1,5 @@
 /*
-Template: Natto - Online Food Ordering Social Networking HTML Template
+Template: Culture Reset - Online Food Ordering Social Networking HTML Template
 
 NOTE: This is main stylesheet of template, This file contains the styling for the actual Template.
 */
@@ -81,8 +81,8 @@ ul { margin: 0px; padding: 0px; }
 hr { margin: 0; padding: 0px; border-bottom: 1px solid #e0e0e0; border-top: 0px; }
 label { font-size: 15px; font-weight: 400; color: #aaaaaa; }
 .label { color: #fff !important; font-size: 9px !important; }
-input:focus {background:#fff; border:1px solid #ffa803; color:none;}
-textarea:focus {background:#fff; border:1px solid #ffa803; color:none;}
+input:focus {background:#fff; border:1px solid #07304E; color:none;}
+textarea:focus {background:#fff; border:1px solid #07304E; color:none;}
 *::-moz-selection { background: #fff; color: #000; text-shadow: none; }
 ::-moz-selection { background: #fff; color: #000; text-shadow: none; }
 ::selection { background: #fff; color: #000; text-shadow: none; }
@@ -324,17 +324,12 @@ color:#847577;
 	font-size:9px;
 	font-weight:500;
 	margin-bottom:2px;
-	background:#ffa803;
+	background:#07304E;
 	width:13px;
 	height:13px;
 	text-align:center;
 }
-.nav-item {
-	-webkit-transition:hide;
-}
-.dropdown-toggle{
 
-}
 .dropdown-menu {
     position: absolute;
     left: 0;
@@ -377,7 +372,7 @@ color:#847577;
 }
 .dropdown-menu a:focus{
     color: #fff;
-	background-color: #ffa803;
+	background-color: #07304E;
 }
 .caret {
     display: none;
@@ -388,6 +383,11 @@ color:#847577;
 }
 .logo-box {
 	padding:16px 0px;
+    
+}
+.logo-box img {
+ height: 45px;
+    width: 100px;
 }
 .menu-left {
 	text-align:left;	
@@ -453,13 +453,13 @@ color:#847577;
 	margin-left:10px;
 }
 .navbar-expand-lg .navbar-nav .nav-link .active {
-	color:#ffa803;	
+	color:#07304E;	
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ffa803;
+    color: #07304E;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-	color:#ffa803;	
+	color:#07304E;	
 }
 .bg-light {
     background-color: #fff!important;
@@ -480,7 +480,7 @@ color:#847577;
 	color:#a1a1a1;
 }
 .icons-set .icon-items a:hover{
-	color:#ffa803;
+	color:#07304E;
 }
 .b-btn, a.b-btn, button.b-btn {
 	padding: 10px 18px;
@@ -493,8 +493,8 @@ color:#847577;
 	font-weight:400;
 	color:#fff;
 	border-radius:3px;
-	border:1px solid #ffa803;
-	background:#ffa803;
+	border:1px solid #07304E;
+	background:#07304E;
 }
 .btn-link:hover {
 	color: #fff;
@@ -620,14 +620,14 @@ padding-left: 152px;
     font-size: 12px;
     line-height: 1.4rem;
     border-radius: 3px;
-	background: #ffa803;
+	background: #07304E;
     color: #fff;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .form-control:focus {
     color: #b9b9b9;
     background-color: #fff;
-    border-color: #ffa803;
+    border-color: #07304E;
     outline: 0;
     box-shadow: none;
 }
@@ -694,7 +694,7 @@ padding-left: 152px;
     font-size: 14px;
     line-height: 1.4rem;
     border-radius: 3px;
-	background:#ffa803;
+	background:#07304E;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     padding: 14px 20px;
 	margin-top: 40px;
@@ -733,12 +733,12 @@ padding-left: 152px;
 	z-index: 857;
 }
 .find-resto:focus{
-	border-radius:3px;border: 1px solid #ffa803;
+	border-radius:3px;border: 1px solid #07304E;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
 }
 .find-address:focus{
-	border-radius:3px;border: 1px solid #ffa803;
+	border-radius:3px;border: 1px solid #07304E;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
 }
@@ -757,7 +757,7 @@ padding-left: 152px;
     font-size: 14px;
     line-height: 1.4rem;
     border-radius: 3px;
-	background:#ffa803;
+	background:#07304E;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     padding: 14px 30px;
 	cursor:pointer;
@@ -846,7 +846,7 @@ padding-left: 152px;
 	color:#847577;
 }
 .places a:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 
 /*** How to work ***/
@@ -924,7 +924,7 @@ padding-left: 152px;
 	margin-top:27px;
 }
 .order-food-online .your-location span {
-	color:#ffa803;
+	color:#07304E;
 	cursor:pointer;
 	margin-right: 10px;
 }
@@ -957,7 +957,7 @@ padding-left: 152px;
 .search-meal-btn {
 	padding:15px 20px;
 	color:#fff;
-	background:#ffa803;
+	background:#07304E;
 	font-size:14px;
 	font-weight:400;
 	border-top-left-radius:0px;
@@ -1048,14 +1048,14 @@ padding-left: 152px;
     overflow: hidden;
 }
 .sub-heading a:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 .sub-heading p {
     float: right;
     margin-right: 20px;
     font-size: 14px;
     font-weight: 500;
-	color:#ffa803;
+	color:#07304E;
 }
 .bottom {
     margin-top: 53px;
@@ -1087,7 +1087,7 @@ padding-left: 152px;
 .star {
     text-align: left;
     font-size: 14px;
-    color: #ffa803;
+    color: #07304E;
     line-height: 29px;
     font-weight: 400;
 	padding-top: 9px;
@@ -1098,7 +1098,7 @@ padding-left: 152px;
     font-size: 12px;
     color: #fff;
     font-weight: 400;
-    background: #ffa803;
+    background: #07304E;
     border-radius: 50px;
 	margin-left: 10px;
 }
@@ -1117,7 +1117,7 @@ padding-left: 152px;
 	cursor:pointer;
 }
 .comments a:hover{ 
-	color:#ffa803;
+	color:#07304E;
 }
 .meal-btn {
 	margin-top:66px;
@@ -1168,7 +1168,7 @@ padding-left: 152px;
   text-align: left;
 }.banner .bnnr-text span {
   font-size: 23px;
-  color: #ffa803;
+  color: #07304E;
 }
 .banner .bnnr-text p {
   font-size: 14px;
@@ -1185,7 +1185,7 @@ padding-left: 152px;
 	padding: 9px 14px;
 	font-size:12px;
 	color:#fff;
-	background:#ffa803;
+	background:#07304E;
 	cursor:pointer;
 	margin-top:20px;
 }
@@ -1208,7 +1208,7 @@ padding-left: 152px;
 	color:#847577;
 }
 .all-meals .item a:hover{
-	color:#ffa803;
+	color:#07304E;
 }
 .all-meals .item {
 	padding:30px 0px;
@@ -1264,8 +1264,8 @@ padding-left: 152px;
     white-space: nowrap;
     overflow: hidden;
 }
-.bg-resto .resto-img .resto-name h4 a:hover{;
-	color:#ffa803;
+.bg-resto .resto-img .resto-name h4 a:hover{
+	color:#07304E;
 }
 .bg-resto .resto-img .resto-name p{
 	font-size:14px;
@@ -1283,7 +1283,7 @@ padding-left: 152px;
 	margin-right:10px;
 }
 .resto-item .resto-location span {
-	color:#ffa803;
+	color:#07304E;
 }
 .menu-btn {
 	padding: 17px 0px;
@@ -1361,7 +1361,7 @@ padding-left: 152px;
     padding-top: 2px;
 }
 
-/*** Natto in your Pocket ***/
+/*** Culture Reset in your Pocket ***/
 
 .pocket-block-preview {
     position: relative;
@@ -1489,7 +1489,7 @@ padding-left: 152px;
 .newsletter-btn {
     padding: 15px 20px;
     color: #fff;
-    background: #ffa803;
+    background: #07304E;
     font-size: 14px;
     font-weight: 400;
     border-top-left-radius: 0px;
@@ -1563,7 +1563,7 @@ padding-left: 152px;
 	font-weight:400;
 }
 .link-title li a:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 .footer .social-btns {
     padding-top: 22px;
@@ -1594,7 +1594,7 @@ padding-left: 152px;
     line-height: 1.4rem;
 }
 .footer .social-btns .soc-btn:hover {
-    background-color: #ffa803;
+    background-color: #07304E;
     color: #fff;
 }
 
@@ -1621,7 +1621,7 @@ padding-left: 152px;
 	font-weight:400;
 }
 .footer .privacy-terms li a:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 .footer .copyright {
 	text-align:center;
@@ -1636,10 +1636,10 @@ padding-left: 152px;
 	margin-right:5px;
 }
 .footer .copyright .copyright-text a{ 
-	color:#ffa803;
+	color:#07304E;
 }
 .footer .copyright .copyright-text a:hover{
-	color:#ffa803;
+	color:#07304E;
 }
 
 /**************************************
@@ -1673,13 +1673,13 @@ padding-left: 152px;
     color: #000;
 }
 .breadcrumb-item.active {
-	color:#ffa803;
+	color:#07304E;
 }
-.about-natto {
+.about-Culture Reset {
 	padding-top: 78px;
 	text-align: center;
 }
-.about-natto .about-text1 {
+.about-Culture Reset .about-text1 {
 	text-align:center;
 	font-size:14px;
 	font-family:"open sans";
@@ -1688,7 +1688,7 @@ padding-left: 152px;
 	color:#847577;
 	padding-top:39px;
 }
-.about-natto .about-text2 {
+.about-Culture Reset .about-text2 {
 	text-align:center;
 	font-size:14px;
 	font-family:"open sans";
@@ -1724,7 +1724,7 @@ padding-left: 152px;
 	line-height:24px;
 	color:#847577;
 }
-.about-natto .order-now-btn {
+.about-Culture Reset .order-now-btn {
     margin-top: 62px;
 }
 .app-block-preview {
@@ -1795,7 +1795,7 @@ padding-left: 152px;
 	font-weight:400;
 }
 .countries li a:hover{
-	color:#ffa803;
+	color:#07304E;
 }
 
 /*** Our Team ***/
@@ -1857,13 +1857,13 @@ padding-left: 152px;
     line-height: 1.4rem;
 }
 .team-1 .social-btns .soc-btn:hover {
-    background-color: #ffa803;  
+    background-color: #07304E;  
     color: #fff;    
 }
 
 
 .over-restaurants {
-	background:#ffa803;
+	background:#07304E;
 	padding: 46px 0px;
 }
 .restaurants-links h1 {
@@ -1891,7 +1891,7 @@ padding-left: 152px;
     background: transparent;
 }
 .r-btn-link:hover {
-    color: #ffa803;
+    color: #07304E;
     border: 1px solid #fff;
     background: #fff;
 }
@@ -2062,7 +2062,7 @@ padding-left: 152px;
 .find-recipe-btn {
     padding: 15px 20px;
     color: #fff;
-    background: #ffa803;
+    background: #07304E;
     font-size: 14px;
     font-weight: 400;
     border-top-left-radius: 0px;
@@ -2084,7 +2084,7 @@ padding-left: 152px;
 .upload-btn {
     padding: 15px 20px;
     color: #fff;
-    background: #ffa803;
+    background: #07304E;
 }
 
 /*** Main Recipe Video ***/
@@ -2166,7 +2166,7 @@ padding-left: 152px;
 .video-9 .bottom-items .video-title .rating {
     text-align: left;
     font-size: 14px;
-    color: #ffa803;
+    color: #07304E;
     line-height: 0px;
     font-weight: 400;
     padding-top: 0px;
@@ -2176,7 +2176,7 @@ padding-left: 152px;
     font-size: 12px;
     color: #fff;
     font-weight: 400;
-    background: #ffa803;
+    background: #07304E;
     border-radius: 50px;
 	margin-left: 10px;
 }
@@ -2203,7 +2203,7 @@ padding-left: 152px;
     text-align: center;
 }
 .middle .play-btn {
-    background-color: #ffa803;
+    background-color: #07304E;
     color: white;
     font-size: 18px;
     border-radius: 50%;
@@ -2282,10 +2282,10 @@ padding-left: 152px;
     float: right;
     position: relative;
 	background: #fff;
-    border: 1px solid #ffa803;
+    border: 1px solid #07304E;
     height: 40px;
     width: 40px;
-	color: #ffa803;
+	color: #07304E;
 	border-radius:3px;
 }
 .suggestion-usd > button i {
@@ -2301,9 +2301,9 @@ padding-left: 152px;
 	border:1px solid #e38802;
 }
 .suggestion-usd > button:active {
-    background-color: #ffa803;
+    background-color: #07304E;
     color: #fff;
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 }
 
 /*** Recomended For You ***/
@@ -2437,7 +2437,7 @@ padding-left: 152px;
     margin-bottom: 10px;
 }
 .name-location span {
-	color:#ffa803;
+	color:#07304E;
 	margin-right:10px;
 }
 .name-location p {
@@ -2454,33 +2454,33 @@ padding-left: 152px;
 .right-side-btns > button {
     position: relative;
     background: #fff;
-    border: 1px solid #ffa803;
+    border: 1px solid #07304E;
     height: 40px;
     width: 40px;
-    color: #ffa803;
+    color: #07304E;
     border-radius: 3px;
 	cursor:pointer;
 	margin-right: 10px;
 }
 .right-side-btns > button:hover {
-    background-color: #ffa803;
+    background-color: #07304E;
     color: #fff;
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 }
 .right-side-btns .follow-btn > button {
     position: relative;
     background: #fff;
-    border: 1px solid #ffa803;
+    border: 1px solid #07304E;
     height: 40px;
 	width:100px;
-    color: #ffa803;
+    color: #07304E;
     border-radius: 3px;
 	cursor:pointer;
 }
 .right-side-btns .follow-btn > button:hover {
-    background-color: #ffa803;
+    background-color: #07304E;
     color: #fff;
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 }
 .right-side-btns .ellipsis {
     margin-left: 30px;
@@ -2611,7 +2611,7 @@ padding-left: 152px;
     text-decoration: none;
 }
 .like-comments > ul li span:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 .all-tabs {
 	float:left;
@@ -2622,7 +2622,7 @@ padding-left: 152px;
     border-bottom: 1px solid #e1e1e1;
 }
 .all-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #ffa803;
+    color: #07304E;
     background-color: #fff;
     border-color: #e1e1e1 #e1e1e1 #fff;
 	border-top-right-radius:3px;
@@ -2714,7 +2714,7 @@ padding-left: 152px;
 	color:#000;
 }
 .main-comments .reply-time a:hover{
-	color:#ffa803;
+	color:#07304E;
 }
 .main-comments .reply-time p{
 	font-size:12px;
@@ -2798,7 +2798,7 @@ padding-left: 152px;
 	padding: 0px 1px;
 }
 .select-rating .rating-stars > li:hover{	
-	color:#ffa803;
+	color:#07304E;
 }
 .rating-input {
     border: 1px solid #e1e1e1;
@@ -2836,7 +2836,7 @@ padding-left: 152px;
     position: absolute;
     text-align: left;
     font-size: 12px;
-    color: #ffa803;
+    color: #07304E;
     font-weight: 400;
     padding-top: 35px;
     margin-bottom: 0px;
@@ -2848,7 +2848,7 @@ padding-left: 152px;
     font-size: 12px;
     color: #fff;
     font-weight: 400;
-    background: #ffa803;
+    background: #07304E;
     border-radius: 50px;
 	margin-left: 10px;
 }
@@ -2883,13 +2883,13 @@ padding-left: 152px;
     text-align: center;
 }
 .main-pagination .pagination .page-link.active {
-	background:#ffa803;
-	border: 1px solid #ffa803;
+	background:#07304E;
+	border: 1px solid #07304E;
 	color:#fff;
 }
 .main-pagination .pagination .page-link:hover {
-	background:#ffa803;
-	border: 1px solid #ffa803;
+	background:#07304E;
+	border: 1px solid #07304E;
 	color:#fff;
 	box-shadow:none;
 }
@@ -2930,7 +2930,7 @@ padding-left: 152px;
 .about-recipe a {
     font-size: 14px;
     font-weight: 500;
-    color: #ffa803;
+    color: #07304E;
     line-height: 0px;
 	margin-top:26px;
 }
@@ -2986,7 +2986,7 @@ padding-left: 152px;
 .caption  .star {
     text-align: left;
     font-size: 12px;
-    color: #ffa803;
+    color: #07304E;
     line-height: 29px;
     font-weight: 400;
     padding-top: 9px;
@@ -3118,7 +3118,7 @@ padding-left: 152px;
 }
 
 .box [type="file"] + label {
-	background: #ffa803;
+	background: #07304E;
 	border: none;
 	border-radius: 3px;
 	color: #fff;
@@ -3264,10 +3264,10 @@ padding-left: 152px;
 }
 .filter-checkbox input[type="checkbox"]:checked + label:before {
 	background: #fff;
-	color: #ffa803;
+	color: #07304E;
 	content: "\f00c";
 	text-align: center;
-	border: 2px solid #ffa803;
+	border: 2px solid #07304E;
 	line-height:10px;
 }
 .filter-checkbox input[type="checkbox"]:checked + label:after {
@@ -3279,11 +3279,11 @@ padding-left: 152px;
 .see-more a {
     font-size: 14px;
     font-weight: 500;
-    color: #ffa803;
+    color: #07304E;
     line-height: 0px;
 }
 .filter-checkbox .rating-color {
-	color:#ffa803;
+	color:#07304E;
 }
 .filter-checkbox .rating-color i {
     margin-left: 10px;
@@ -3363,7 +3363,7 @@ padding-left: 152px;
 .bagde-dt p {
 	font-size:13px;
 	font-weight:500;
-	color:#ffa803;
+	color:#07304E;
 	padding: 3px 0;
 	margin-left:10px;
 	
@@ -3378,7 +3378,7 @@ padding-left: 152px;
 	margin-right: 5px;
 }
 .online-offline .span-1.active{
-	color:#ffa803;
+	color:#07304E;
 	font-size:10px;
 }
 .online-offline p{
@@ -3388,7 +3388,7 @@ padding-left: 152px;
 	line-height: 0px;
 }
 .partner-name span {
-	color:#ffa803;
+	color:#07304E;
 	margin-right: 6px;
 }
 .partner-subbar {
@@ -3420,11 +3420,11 @@ padding-left: 152px;
     margin-right: 6px;
 }
 .bookmark span:hover{
-	color:#ffa803;
+	color:#07304E;
 }
 .review-stars {
     font-size: 14px;
-    color: #ffa803;
+    color: #07304E;
     font-weight: 400;
     display: inline-block;
 }
@@ -3433,7 +3433,7 @@ padding-left: 152px;
     font-size: 12px;
     color: #fff;
     font-weight: 400;
-    background: #ffa803;
+    background: #07304E;
     border-radius: 50px;
 	margin-left: 6px;
 }
@@ -3463,7 +3463,7 @@ padding-left: 152px;
     margin-right: 10px;
 }
 .partner-bottombar li a:hover{
-	color:#ffa803;
+	color:#07304E;
 }
 .line-lr {
 	border-right:1px solid #e1e1e1;
@@ -3506,13 +3506,13 @@ padding-left: 152px;
     text-align: center;
 }
 .main-p-pagination .pagination .page-link.active {
-    background: #ffa803;
-    border: 1px solid #ffa803;
+    background: #07304E;
+    border: 1px solid #07304E;
     color: #fff;
 }
 .main-p-pagination .pagination .page-link:hover {
-	background:#ffa803;
-	border: 1px solid #ffa803;
+	background:#07304E;
+	border: 1px solid #07304E;
 	color:#fff;
 	box-shadow:none;
 }
@@ -3568,7 +3568,7 @@ padding-left: 152px;
 .popular-restaurants-items .caption .star {
     text-align: left;
     font-size: 12px;
-    color: #ffa803;
+    color: #07304E;
     line-height: 29px;
     font-weight: 400;
     padding-top: 3px;
@@ -3628,7 +3628,7 @@ padding-left: 152px;
 }
 .resto-review-stars {
     font-size: 18px;
-    color: #ffa803;
+    color: #07304E;
     font-weight: 400;
     display: inline-block;
 	margin-top: 15px;
@@ -3639,7 +3639,7 @@ padding-left: 152px;
     font-size: 14px;
     color: #fff;
     font-weight: 400;
-    background: #ffa803;
+    background: #07304E;
     border-radius: 50px;
 	margin-left:10px;
 }
@@ -3654,7 +3654,7 @@ padding-left: 152px;
     line-height: 0px;
 }
 .online-offline-2 .span-1.active {
-    color: #ffa803;
+    color: #07304E;
     font-size: 12px;
 }
 .online-offline-2 .span-1 {
@@ -3811,7 +3811,7 @@ padding-left: 152px;
 .tabs-left > .nav-tabs .active > a:hover,
 .tabs-left > .nav-tabs .active > a:focus {
 	border-color:none;
-	*border-right-color: none;
+	border-right-color: none;
 }
 .menu-img-view {
 	width:100%;
@@ -3926,7 +3926,7 @@ padding-left: 152px;
 .caption-meal .star {
     text-align: left;
     font-size: 12px;
-    color: #ffa803;
+    color: #07304E;
     line-height: 29px;
     font-weight: 400;
     padding-top: 5px;
@@ -4039,7 +4039,7 @@ padding-left: 152px;
     color: #000;
 }
 .close-icon i:hover{
-    color: #ffa803;
+    color: #07304E;
 }
 .publish {
     margin-bottom: 10px;
@@ -4068,7 +4068,7 @@ padding-left: 152px;
 	color:#2f96ff;
 }
 .review-tags a:hover {
-	color:#ffa803;
+	color:#07304E;
 }	
 .review-tags span {
 	font-size:14px;
@@ -4108,7 +4108,7 @@ padding-left: 152px;
     text-decoration: none;
 }
 .like-comment-dt > ul li span:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 .comment-input {
     border: 1px solid #e1e1e1;
@@ -4171,7 +4171,7 @@ padding-left: 152px;
     text-decoration: none;
 }
 .like-report > ul li span:hover {
-    color:#ffa803;
+    color:#07304E;
 }
 .book-table {
 	padding:0px 20px;
@@ -4225,7 +4225,7 @@ padding-left: 152px;
 .btn-request input {
     padding: 15px 20px;
     font-size: 14px;
-    color: #ffa803;
+    color: #07304E;
     font-weight: 400;
     border-radius: 3px;
 }
@@ -4346,17 +4346,17 @@ padding-left: 152px;
 .about-meal a {
     font-size: 14px;
     font-weight: 500;
-    color: #ffa803;
+    color: #07304E;
     line-height: 0px;
     margin-top: 26px;
 }
 .about-meal a:focus {
-    color: #ffa803;
+    color: #07304E;
     background: transparent;
 }
 .price {
     font-size: 24px;
-    color: #ffa803;
+    color: #07304E;
     font-weight: 500;
 }
 .dt-detail li {
@@ -4408,10 +4408,10 @@ padding-left: 152px;
 }
 .Extra-option input[type="checkbox"]:checked + label:before {
 	background: #fff;
-	color: #ffa803;
+	color: #07304E;
 	content: "\f00c";
 	text-align: center;
-	border: 2px solid #ffa803;
+	border: 2px solid #07304E;
 	line-height:10px;
 }
 .Extra-option input[type="checkbox"]:checked + label:after {
@@ -4520,11 +4520,11 @@ padding-left: 152px;
 }
 .Qty .minus-btn:hover {
     color: #fff;   
-    background-color: #ffa803;
+    background-color: #07304E;
 }
 .Qty .add-btn:hover {
     color: #fff;   
-    background-color: #ffa803;
+    background-color: #07304E;
 }
 .total-cost {
 	padding:20px 0;;
@@ -4550,7 +4550,7 @@ padding-left: 152px;
 .total-price p {
   font-size: 14px;
   font-weight:500;
-  color: #ffa803;
+  color: #07304E;
   line-height: 1.714;
   z-index: 334;
 }
@@ -4634,7 +4634,7 @@ padding-left: 152px;
 .name .star {
     text-align: left;
     font-size: 12px;
-    color: #ffa803;
+    color: #07304E;
     line-height: 29px;
     font-weight: 400;
     padding-top: 5px;
@@ -4645,7 +4645,7 @@ padding-left: 152px;
     font-size: 12px;
     color: #fff;
     font-weight: 400;
-    background: #ffa803;
+    background: #07304E;
     border-radius: 50px;
 }
 .remove-btn {
@@ -4659,8 +4659,8 @@ padding-left: 152px;
 	font-weight:500;
 }
 .remove-btn:hover {
-	background:#ffa803;
-	border:1px solid #ffa803;
+	background:#07304E;
+	border:1px solid #07304E;
 	color:#fff;
 }
 .my-checkout h3 {
@@ -4845,7 +4845,7 @@ right: 99%; }
 	text-decoration:none;
 }
 .yf-location li span{
-	color:#ffa803;
+	color:#07304E;
 }
 .food-delivery-time p {
 	font-size:14px;
@@ -4968,10 +4968,10 @@ right: 99%; }
 }
 .right-payment-method input[type="radio"]:checked + label:before {
 	background: #fff;
-	color: #ffa803;
+	color: #07304E;
 	content: "\f00c";
 	text-align: center;
-	border: 2px solid #ffa803;
+	border: 2px solid #07304E;
 	line-height:10px;
 }
 .right-payment-method input[type="radio"]:checked + label:after {
@@ -5067,7 +5067,7 @@ right: 99%; }
 .promocode-btn {
     padding: 0px 30px;
     color: #fff;
-    background: #ffa803;
+    background: #07304E;
     font-size: 14px;
     font-weight: 400;
     border-top-left-radius: 0px;
@@ -5076,7 +5076,7 @@ right: 99%; }
     border-bottom-right-radius: 3px;
     cursor: pointer;
     height: calc(40px);
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 }
 .promocode-btn:hover {
     background: #e38802;
@@ -5113,7 +5113,7 @@ right: 99%; }
     line-height: 24px;
 }
 .your-order .item-dt-left a {
-    color: #ffa803;
+    color: #07304E;
 	text-decoration:none;
 }
 .your-order .item-dt-right p {
@@ -5190,10 +5190,10 @@ right: 99%; }
 }
 .accpet-checkbox input[type="checkbox"]:checked + label:before {
 	background: #fff;
-	color: #ffa803;
+	color: #07304E;
 	content: "\f00c";
 	text-align: center;
-	border: 2px solid #ffa803;
+	border: 2px solid #07304E;
 	line-height:10px;
 }
 .accpet-checkbox input[type="checkbox"]:checked + label:after {
@@ -5291,8 +5291,8 @@ right: 99%; }
 	height:30px;
 	width:90px;
 	border-radius:3px;
-	background:#ffa803;
-	border:1px solid #ffa803;
+	background:#07304E;
+	border:1px solid #07304E;
 	font-size:14px;
 	color:#fff;
 	margin-top:25px;
@@ -5350,13 +5350,13 @@ right: 99%; }
 .no-margin{
 	margin-bottom:0;
 }
-.natto-business .top-img .modal-body {
+.Culture Reset-business .top-img .modal-body {
     position: relative;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 0rem;
 }
-.natto-business .top-img .close {
+.Culture Reset-business .top-img .close {
     float: right;
     font-size: 24px;
     font-weight: 300;
@@ -5459,10 +5459,10 @@ right: 99%; }
 }
 .filter-radio input[type="radio"]:checked + label:before {
 	background: #fff;
-	color: #ffa803;
+	color: #07304E;
 	content: "\f00c";
 	text-align: center;
-	border: 2px solid #ffa803;
+	border: 2px solid #07304E;
 	line-height:10px;
 }
 .filter-radio input[type="radio"]:checked + label:after {
@@ -5500,10 +5500,10 @@ right: 99%; }
 }
 .filter-checkboxs input[type="checkbox"]:checked + label:before {
 	background: #fff;
-	color: #ffa803;
+	color: #07304E;
 	content: "\f00c";
 	text-align: center;
-	border: 2px solid #ffa803;
+	border: 2px solid #07304E;
 	line-height:10px;
 }
 .filter-checkboxs input[type="checkbox"]:checked + label:after {
@@ -5521,8 +5521,8 @@ right: 99%; }
 	font-size:14px;
 	font-weight:400;
 	border-radius: 3px;
-	background-color: #ffa803;
-	border:1px solid #ffa803;
+	background-color: #07304E;
+	border:1px solid #07304E;
 	color:#fff;
 	width: 120px;
 	height: 40px;
@@ -5543,7 +5543,7 @@ right: 99%; }
 	cursor:pointer;
 }
 .selected-time li a:hover{
-	color:#ffa803;
+	color:#07304E;
 	cursor:pointer;
 }
 .c-top {
@@ -5567,7 +5567,7 @@ right: 99%; }
     transform: translateY(-50%);
 }
 .field-input i:hover {
-    color: #ffa803;   
+    color: #07304E;   
 }
 .h-top {
 	margin-top:10px;
@@ -5724,7 +5724,7 @@ right: 99%; }
 	margin-top:20px;
 }
 .forgot-password a:hover {
-	color:#ffa803;
+	color:#07304E;
 	cursor:pointer;
 }
 .signup-checkbox {
@@ -5758,10 +5758,10 @@ right: 99%; }
 }
 .signup-checkbox input[type="checkbox"]:checked + label:before {
 	background: #fff;
-	color: #ffa803;
+	color: #07304E;
 	content: "\f00c";
 	text-align: center;
-	border: 2px solid #ffa803;
+	border: 2px solid #07304E;
 	line-height:10px;
 }
 .signup-checkbox input[type="checkbox"]:checked + label:after {
@@ -5843,7 +5843,7 @@ right: 99%; }
 	text-decoration:none;
 }
 .browse-places-all a {
-    color: #ffa803;   
+    color: #07304E;   
 }
 .browse-places-all .form-group {
 	margin-top:50px;
@@ -5893,7 +5893,7 @@ right: 99%; }
 	height:60px;
 	top:0;
 	text-align:center;
-	background:#ffa803;
+	background:#07304E;
 }
 .event-date p {
 	font-size: 14px;
@@ -5913,7 +5913,7 @@ right: 99%; }
   line-height: 1.111111;
 }
 .event-dt span {
-    color: #ffa803;
+    color: #07304E;
 }
 .event-dt span i {
     margin-right: 6px;
@@ -6006,7 +6006,7 @@ right: 99%; }
     float:left;
 	margin-right:30px;
     text-align: center;
-    background: #ffa803;
+    background: #07304E;
 }
 .event-date-time p {
     font-size: 16px;
@@ -6029,7 +6029,7 @@ right: 99%; }
     text-align: left;
 }
 .event-title span {
-    color: #ffa803;
+    color: #07304E;
 	margin-right: 10px;
 }
 .event-title .event-time {
@@ -6052,7 +6052,7 @@ right: 99%; }
     margin-right: 10px;
 }
 .event-right .share span:hover {
-    color: #ffa803;
+    color: #07304E;
 }
 .event-right .dropdown-menu {
 	margin:0px;
@@ -6074,9 +6074,7 @@ right: 99%; }
 	width: 120px;
 	height: 50px;
 }
-.event-description {
-	
-}
+
 .event-description h4 {
 	font-size: 18px;
 	color: rgb(0, 0, 0);
@@ -6142,7 +6140,7 @@ right: 99%; }
 	line-height: 2;
 }
 .caption-detail span {	
-	color: #ffa803;
+	color: #07304E;
 }
 .caption-detail h4 {
 	font-size: 14px;
@@ -6259,7 +6257,7 @@ position: relative;
 	height: 14px; 
 	border-radius: 50%; 
 	margin: 9px; 
-	border: 1px solid #ffa803;
+	border: 1px solid #07304E;
 }
 @-webkit-keyframes pulse {
 	from { -webkit-transform: scale3d(0.5, 0.5, 1); }
@@ -6445,15 +6443,15 @@ right: 99%; }
 	line-height:24px;
 }
 .faq .active, .faq-accordion:hover {
-	background-color:#ffa803;
+	background-color:#07304E;
 	color:#fff;
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 
 }
 .faq .faq-accordion.active {
-	background-color:#ffa803;
+	background-color:#07304E;
 	color:#fff;
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 	margin-bottom:0px;
 }
 .faq .faq-accordion:after {
@@ -6517,7 +6515,7 @@ right: 99%; }
 	cursor:pointer;
 }
 .profile-name-dt span {
-    color:#ffa803;
+    color:#07304E;
 	margin-right: 10px;
 }
 .profile-name-dt p {
@@ -6551,7 +6549,7 @@ right: 99%; }
 	margin-right:10px;
 }
 .phone-no  a:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 .website a {
 	font-size:14px;
@@ -6560,7 +6558,7 @@ right: 99%; }
 	cursor:pointer;
 }
 .website  a:hover {
-	color:#ffa803;
+	color:#07304E;
 }
 .setting-btn {
 	padding: 10px 15px;
@@ -6740,7 +6738,7 @@ right: 99%; }
 .tab-content-heading a{
 	font-size:14px;
 	font-weight:400;
-	color:#ffa803;
+	color:#07304E;
 	float:right;
 	line-height:24px;
 }
@@ -6769,7 +6767,7 @@ right: 99%; }
     text-align: center;
 }
 .post .play-btn {
-    background-color: #ffa803;
+    background-color: #07304E;
     color: white;
     font-size: 12px;
     border-radius: 50%;
@@ -6893,7 +6891,7 @@ right: 99%; }
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 2px;
-    background: #ffa803;
+    background: #07304E;
     width: 18px;
     height: 18px;
     text-align: center;
@@ -6995,7 +6993,7 @@ right: 99%; }
     margin-bottom: 4px;
 }
 .sgt-text-2 span {
-    color: #ffa803;
+    color: #07304E;
     font-size: 13px;
     font-weight: 400;
 	margin-right: 5px;
@@ -7016,9 +7014,9 @@ right: 99%; }
 	margin-right: 5px;
 }
 .suggestion-usd-2 > button:active {
-    background-color: #ffa803;
+    background-color: #07304E;
     color: #fff;
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 }
 
 /*** Recently Viewed Restaurants ***/
@@ -7058,7 +7056,7 @@ right: 99%; }
 	margin-top:10px;
 }
 .recently-resto-dt span{
-	color:#ffa803;
+	color:#07304E;
 	margin-right: 5px;
 }
 
@@ -7119,9 +7117,9 @@ right: 99%; }
 	opacity: 0;
 }
 .box-1 [type="file"] + label {
-	background: #ffa803;
+	background: #07304E;
 	border: none;
-	float:right;
+	
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	border-top-left-radius: 0px;
@@ -7388,7 +7386,7 @@ right: 99%; }
 .resto-trace-star {
     text-align: left;
     font-size: 14px;
-    color: #ffa803;
+    color: #07304E;
     font-weight: 400;
     margin-bottom: 0px;
 }
@@ -7397,7 +7395,7 @@ right: 99%; }
     font-size: 14px;
     color: #fff;
     font-weight: 400;
-    background: #ffa803;
+    background: #07304E;
     border-radius: 50px;
     margin-left: 10px;
 }
@@ -7410,7 +7408,7 @@ right: 99%; }
 	content:'';
 	width:1px;
 	height:100%;
-	background-color: #ffa803;
+	background-color: #07304E;
 	top: 0px;
     position: absolute;
     left: 7px;
@@ -7425,7 +7423,7 @@ right: 99%; }
 	position:absolute;
 	width:15px;
 	height:15px;
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 	background:#fff;
 	border-radius:50%;
 }
@@ -7434,8 +7432,8 @@ right: 99%; }
 	position:absolute;
 	width:15px;
 	height:15px;
-	border:1px solid #ffa803;
-	background:#ffa803;
+	border:1px solid #07304E;
+	background:#07304E;
 	border-radius:50%;
 }
 .trace-steps ul li.active::before{
@@ -7443,8 +7441,8 @@ right: 99%; }
 	position:absolute;
 	width:15px;
 	height:15px;
-	border:1px solid #ffa803;
-	background:#ffa803;
+	border:1px solid #07304E;
+	background:#07304E;
 	border-radius:50%;
 }
 .trace-steps li .steps-names {
@@ -7480,7 +7478,7 @@ right: 99%; }
 }
 .map-location-tooltip-3 span.tooltip-item-3:before { 
 	background: #fff; 
-	border:1px solid #ffa803;
+	border:1px solid #07304E;
 	content: ""; 
 	position: absolute;
 	width: 14px; 
@@ -7796,7 +7794,7 @@ right: 99%; }
 .browse-btn {
 	font-size:14px;
 	font-weight:400;
-	background: #ffa803;
+	background: #07304E;
 	color: #fff;
 	min-height: 40px;
 	padding: 10px 25px;
@@ -7874,8 +7872,8 @@ right: 99%; }
 }
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: #ffa803;
-    background-color: #ffa803;
+    border-color: #07304E;
+    background-color: #07304E;
 	box-shadow:none;
 	outline:none;
 }

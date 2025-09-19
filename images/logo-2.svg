@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        fill: #ffa803;
+        fill: #07304E;
         filter: url(#gradient-overlay-1);
       }
     </style>

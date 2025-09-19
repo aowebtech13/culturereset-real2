@@ -68,15 +68,15 @@ responsive : {
 
 .dis-owl .owl-nav .owl-prev:hover {
 	color: #fff;
-	background: #ffa803 !important;
-	border: 1px solid #ffa803 !important;
+	background: #07304E !important;
+	border: 1px solid #07304E !important;
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.07);
 }	
 
 .dis-owl .owl-nav .owl-next:hover {
 	color: #fff;
-	border: 1px solid #ffa803 !important;
-	background: #ffa803 !important;
+	border: 1px solid #07304E !important;
+	background: #07304E !important;
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.07);
 }
 
